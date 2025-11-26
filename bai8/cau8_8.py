@@ -1,4 +1,4 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -68,4 +68,5 @@ tk.Button(root, text="Form B: Radio Button",
           command=create_radio_form).pack(pady=5)
 
 root.mainloop()
+
 

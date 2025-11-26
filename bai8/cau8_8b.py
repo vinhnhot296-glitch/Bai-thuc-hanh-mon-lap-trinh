@@ -1,4 +1,4 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -32,5 +32,6 @@ tk.Button(root, text="Click Me", font=("Arial", 12),
           command=on_click_me).pack(pady=20)
 
 root.mainloop()
+
 
 

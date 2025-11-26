@@ -1,4 +1,4 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
+
 import tkinter as tk
 root = tk.Tk()
 root.title("Thông tin cá nhân")
@@ -20,3 +20,4 @@ tk.Label(root, text="Ngành học:").grid(row=4, column=0, sticky="w", padx=10, 
 tk.Label(root, text="KTĐK & TĐH").grid(row=4, column=1, sticky="w")
 
 root.mainloop()
+

@@ -1,4 +1,4 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
+print('họ tên: Trần Huy Vinh; MSSV:245752021610007')
 import turtle
 
 window = turtle.Screen()
@@ -17,3 +17,4 @@ def drawsq(t, s):
 for i in range(1,180):
     painter.left(18)
     drawsq(painter, 200)
+

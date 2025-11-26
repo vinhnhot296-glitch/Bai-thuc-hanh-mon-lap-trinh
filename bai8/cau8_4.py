@@ -1,4 +1,4 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
+
 from tkinter import *
 
 # a) Xây dựng cửa sổ đồ họa window form
@@ -19,3 +19,4 @@ btn = Button(window, text="Click Me", command=clicked, bg="yellow", fg="blue")
 btn.grid(column=1, row=0)
 
 window.mainloop()
+

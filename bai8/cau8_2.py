@@ -1,4 +1,4 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
+print('họ tên:Trần HUy vinh; MSSV:245752021610007')
 import turtle, random
 colors = ["red","green","blue","orange","purple","pink","yellow"]#tạo danh sách màu
 painter = turtle.Turtle()#tạo đối tượng vẽ
@@ -11,3 +11,4 @@ for i in range(10):
     painter.right(30)
     painter.left(60)
     painter.setposition(0, 0)
+

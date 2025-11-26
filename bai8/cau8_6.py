@@ -1,4 +1,4 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
+
 from tkinter import *
 from tkinter import messagebox
 def NewFile():
@@ -37,3 +37,4 @@ helpmenu.add_command(label="About...", command=About)
 Label(root, text="").pack()
 # Cấu hình cửa sổ chính để hiển thị
 root.mainloop()
+

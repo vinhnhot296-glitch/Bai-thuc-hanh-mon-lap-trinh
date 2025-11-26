@@ -1,4 +1,3 @@
-print('họ tên: Nguyễn Như Diệu; MSSV:245752021610124')
 import tkinter
 import random
 
@@ -79,3 +78,4 @@ e.pack()
 e.focus_set()
 
 root.mainloop()
+

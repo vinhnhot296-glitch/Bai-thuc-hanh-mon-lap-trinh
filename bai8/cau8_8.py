@@ -12,13 +12,13 @@ def create_personal_info_form():
              font=("Arial", 14, "bold")).grid(row=0, column=0, columnspan=2, pady=10)
 
     tk.Label(info_window, text="Họ tên:").grid(row=1, column=0, sticky="w", padx=10, pady=5)
-    tk.Label(info_window, text="Nguyễn Như Diệu").grid(row=1, column=1, sticky="w")
+    tk.Label(info_window, text="TRần Huy Vinh").grid(row=1, column=1, sticky="w")
 
     tk.Label(info_window, text="Ngày sinh:").grid(row=2, column=0, sticky="w", padx=10, pady=5)
-    tk.Label(info_window, text="02/01/2006").grid(row=2, column=1, sticky="w")
+    tk.Label(info_window, text="29/06/2006").grid(row=2, column=1, sticky="w")
 
     tk.Label(info_window, text="MSSV:").grid(row=3, column=0, sticky="w", padx=10, pady=5)
-    tk.Label(info_window, text="245752021610124").grid(row=3, column=1, sticky="w")
+    tk.Label(info_window, text="245752021610007").grid(row=3, column=1, sticky="w")
 
     tk.Label(info_window, text="Ngành học:").grid(row=4, column=0, sticky="w", padx=10, pady=5)
     tk.Label(info_window, text="KTĐK & TĐH").grid(row=4, column=1, sticky="w")
@@ -68,5 +68,6 @@ tk.Button(root, text="Form B: Radio Button",
           command=create_radio_form).pack(pady=5)
 
 root.mainloop()
+
 
 

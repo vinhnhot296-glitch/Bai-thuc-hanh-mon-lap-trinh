@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 class Nguoi(object): 
   def getGender( self ): 
      return "Unknown" 
@@ -12,3 +13,4 @@ aNam = Nam()
 aNu= Nu() 
 print (aNam.getGender()) 
 print (aNu.getGender())
+

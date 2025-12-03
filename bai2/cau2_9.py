@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 str=input("enter a string:")
 dict ={}
 for n in str:
@@ -7,3 +8,4 @@ for n in str:
     else:
         dict[n] =1
 print (dict)
+

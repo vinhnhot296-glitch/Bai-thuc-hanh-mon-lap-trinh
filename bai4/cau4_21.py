@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def main():
     # Nhập chuỗi số nhị phân, ví dụ: 0100,0011,1010,1001
     s = input("Nhập chuỗi số nhị phân 4 chữ số, cách nhau bởi dấu phẩy: ")
@@ -13,3 +14,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

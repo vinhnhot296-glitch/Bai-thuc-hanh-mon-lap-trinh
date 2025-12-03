@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 # Nhập chuỗi từ bàn phím
 s = input("Nhập chuỗi các từ tiếng Anh, cách nhau bởi dấu cách: ")
 
@@ -11,3 +12,4 @@ words.sort()
 print("Các từ sau khi sắp xếp:")
 for word in words:
     print(word)
+

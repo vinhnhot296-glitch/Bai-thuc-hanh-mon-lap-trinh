@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 import numpy as np
 
 # Định nghĩa kiểu dữ liệu cho từng trường
@@ -24,3 +25,4 @@ sorted_students = np.sort(students, order='height')
 # In kết quả đã sắp xếp
 print("\n Mảng sau khi sắp xếp theo chiều cao:")
 print(sorted_students)
+

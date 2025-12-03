@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 import math
 
 class Circle:
@@ -14,3 +15,4 @@ class Circle:
 c = Circle(7)
 print("Diện tích:", c.area())
 print("Chu vi:", c.circumference())
+

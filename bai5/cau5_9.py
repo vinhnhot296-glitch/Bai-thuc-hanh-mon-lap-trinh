@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def binary_search(arr, value):
     left = 0
     right = len(arr) - 1
@@ -29,3 +30,4 @@ if __name__ == "__main__":
         print("Kết quả tìm kiếm:", found)
     except ValueError:
         print("Vui lòng nhập đúng định dạng số nguyên.")
+

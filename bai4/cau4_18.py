@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def fibonacci_list(n):
     fib = [0, 1]
     while True:
@@ -15,3 +16,4 @@ result = fibonacci_list(n)
 
 # In ra màn hình
 print(result)
+

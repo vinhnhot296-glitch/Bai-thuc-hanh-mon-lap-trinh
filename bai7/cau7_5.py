@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def file_read(fname): 
         from itertools import islice 
         with open(fname, "w") as myfile: 
@@ -6,3 +7,4 @@ def file_read(fname):
         txt = open(fname) 
         print(txt.read()) 
 file_read('abc.txt')
+

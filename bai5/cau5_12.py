@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 import numpy as np
 
 # Dữ liệu đầu vào
@@ -16,3 +17,4 @@ print(indices)
 print("\nDữ liệu sắp xếp:")
 for i in indices:
     print(student_id[i], student_height[i])
+

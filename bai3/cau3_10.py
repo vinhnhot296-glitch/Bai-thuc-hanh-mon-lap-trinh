@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 import math
 
 def Tinh(R):
@@ -16,3 +17,4 @@ def Tinh(R):
 # Nhập bán kính từ bàn phím
 ban_kinh = input("Nhập bán kính hình tròn: ")
 Tinh(ban_kinh)
+

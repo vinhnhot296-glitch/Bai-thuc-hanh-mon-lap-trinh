@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 class RomanToInteger:
     def __init__(self):
         # Tạo từ điển chứa giá trị của các ký tự La Mã
@@ -37,3 +38,4 @@ if __name__ == "__main__":
         print("Giá trị thập phân tương ứng là:", result)
     except KeyError:
         print("❌ Số La Mã không hợp lệ!")
+

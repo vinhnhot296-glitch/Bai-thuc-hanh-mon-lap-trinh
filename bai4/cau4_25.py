@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 # Nhập dãy số từ bàn phím, cách nhau bởi dấu phẩy
 s = input("Nhập dãy số (cách nhau bởi dấu phẩy): ")
 
@@ -9,3 +10,4 @@ odd_numbers = [x for x in numbers if x % 2 != 0]
 
 # In ra kết quả, cách nhau bởi dấu phẩy
 print(",".join(str(x) for x in odd_numbers))
+

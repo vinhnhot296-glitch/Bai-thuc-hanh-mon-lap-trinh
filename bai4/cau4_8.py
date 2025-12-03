@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 chuoi = input("Nhập dãy các từ (cách nhau bằng khoảng trắng): ").strip()
 tu_list = chuoi.split()
 max_len = max(len(tu) for tu in tu_list)
@@ -6,3 +7,4 @@ print("Các từ dài nhất là:")
 for tu in tu_dai_nhat:
     print("-", tu)
 print("Độ dài:", max_len)
+

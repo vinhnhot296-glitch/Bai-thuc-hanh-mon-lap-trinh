@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def sort_list(lst):
     """Sắp xếp danh sách theo thứ tự tăng dần."""
     return sorted(lst)
@@ -22,7 +23,7 @@ def main():
         max_val = find_max(lst)
         min_val = find_min(lst)
 
-        print("\n📊 Kết quả:")
+        print("\nKết quả:")
         print(f"- Danh sách sau khi sắp xếp: {sorted_lst}")
         print(f"- Phần tử lớn nhất: {max_val}")
         print(f"- Phần tử nhỏ nhất: {min_val}")
@@ -31,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

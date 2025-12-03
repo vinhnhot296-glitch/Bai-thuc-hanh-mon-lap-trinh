@@ -1,5 +1,7 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 ds = input("Nhập các phần tử của list (cách nhau bằng khoảng trắng): ").split()
 print("\nList ban đầu:", ds)
 them = input("thêm phần tử: ")
 ds.append(them)
 print("list sau khi thêm phần tử: ", ds)
+

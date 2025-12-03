@@ -1,4 +1,4 @@
-
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 full_name = input("Nhập họ và tên : ").strip()
 parts = full_name.split()
 if len(parts) == 0:
@@ -10,3 +10,4 @@ else:
     ten = parts[-1]
     print("Họ:", ho)
     print("Tên riêng:", ten)
+

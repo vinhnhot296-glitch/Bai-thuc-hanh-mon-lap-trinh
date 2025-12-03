@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def sieve_primes(limit):
     sieve = [True] * (limit + 1)
     sieve[0] = sieve[1] = False
@@ -13,3 +14,4 @@ P = tuple(sieve_primes(10**6))
 print("Số lượng số nguyên tố nhỏ hơn 1 triệu:", len(P))
 print("10 số nguyên tố đầu tiên:", P[:10])
 print("10 số nguyên tố cuối cùng:", P[-10:])
+

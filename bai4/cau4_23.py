@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def main():
     s = input("Nhập câu: ")
 
@@ -15,3 +16,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

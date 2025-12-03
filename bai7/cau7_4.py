@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def file_read_from_head(fname, nlines):
     from itertools import islice
     try:
@@ -7,3 +8,4 @@ def file_read_from_head(fname, nlines):
                 
     except FileNotFoundError:
         print(f"Lỗi: Không tìm thấy tệp '{fname}'. Vui lòng kiểm tra lại đường dẫn của 'test.txt'.")
+

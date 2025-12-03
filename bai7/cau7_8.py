@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def write_list_to_file(filename, data_list):
     with open(filename, 'w') as file:
         for item in data_list:
@@ -7,3 +8,4 @@ def write_list_to_file(filename, data_list):
 my_list = ['Python', 'Java', 'C++', 'JavaScript']
 write_list_to_file('languages.txt', my_list)
 print("Đã ghi danh sách vào tệp 'languages.txt'")
+

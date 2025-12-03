@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 import os
 
 def file_read_from_tail(fname, lines):
@@ -20,3 +21,4 @@ def file_read_from_tail(fname, lines):
                 print(''.join(data[-lines:]))
                 break
             
+

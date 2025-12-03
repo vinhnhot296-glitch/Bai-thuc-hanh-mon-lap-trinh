@@ -1,21 +1,18 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
  # This function adds two numbers  
 def add(x, y): 
-  return x + y 
-# This function subtracts two numbers  
+  return x + y  
 def subtract(x, y): 
   return x - y 
-# This function multiplies two numbers 
 def multiply(x, y): 
   return x * y 
-# This function divides two numbers 
 def divide(x, y): 
   return x / y 
 print("Select operation.") 
 print("1.Add") 
 print("2.Subtract") 
 print("3.Multiply") 
-print("4.Divide") 
-# Take input from the user  
+print("4.Divide")  
 choice = input("Enter choice(1/2/3/4):") 
 num1 = int(input("Enter first number: ")) 
 num2 = int(input("Enter second number: ")) 
@@ -29,3 +26,4 @@ elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2)) 
 else: 
    print("Invalid input") 
+

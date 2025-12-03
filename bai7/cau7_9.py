@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 import os
 
 def copy_file(source_file, destination_file):
@@ -10,3 +11,4 @@ def copy_file(source_file, destination_file):
         dest.write(content)
     print(f"Đã sao chép nội dung từ '{source_file}' sang '{destination_file}'.")
     
+

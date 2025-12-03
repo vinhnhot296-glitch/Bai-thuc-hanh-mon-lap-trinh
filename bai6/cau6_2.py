@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 class hinhchunhat(object): 
   def _init_( self ): 
      self.dai = dai
@@ -9,3 +10,4 @@ if _name_== "_main_":
     rong = float (input("nhập chiều rộng: "))
     hcn = Hinhchunhat(dai, rong)
     print("diện tích hình chữ nhật là: ", hcn.dientich())
+

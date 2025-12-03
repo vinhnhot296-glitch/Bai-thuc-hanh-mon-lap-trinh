@@ -1,3 +1,4 @@
+print('họ tên: trần huy vinh; MSSV:245752021610007')
 def bubbleSort(nlist):
     length = len(nlist)
     for i in range(length - 1):
@@ -15,3 +16,4 @@ if __name__ == "__main__":
         print("Danh sách sau khi sắp xếp:", sorted_list)
     except ValueError:
         print("Vui lòng chỉ nhập các số nguyên, cách nhau bởi dấu phẩy.")
+
